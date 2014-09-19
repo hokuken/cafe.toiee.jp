@@ -1,0 +1,12 @@
+language: ruby
+install: true
+script: true
+deploy:
+  provider: heroku
+  api_key:
+    secure: YU2TYnZRFpstmN7mrgIfKUasOhyZ2hzIm1b+CRge+tcJ7di7T5YAHmuBWK7k/MCXQ7jDjMTCTBKQvlMWTLsPQFuAmkYC/no9vgjR8sCC8rbMqpUuvOuUSQtLryBI0KdytwQsRuEsd9dxDAF2dLvwQvu4JMrTDBLoID4oiDArZEo=
+  app:
+    master: toieecafe-staging
+    production: toieecafe
+  on:
+    repo: hokuken/cafe.toeie.jp
