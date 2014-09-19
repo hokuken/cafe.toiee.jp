@@ -5,5 +5,5 @@ cafe.toiee.jp
 
 toiee cafe website
 
-Staging site:     toieecafe-staging.herokuapp.com
-Production site:  toieecafe.herokuapp.com
+Staging site:     <http://toieecafe-staging.herokuapp.com>  
+Production site:  <http://toieecafe.herokuapp.com>
