@@ -9,4 +9,4 @@ deploy:
     master: toieecafe-staging
     production: toieecafe
   on:
-    repo: hokuken/cafe.toeie.jp
+    repo: hokuken/cafe.toiee.jp
