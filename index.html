@@ -25,11 +25,15 @@ layout: default
           <table class="table-reset table-light table-condensed mb2">
             <tbody>
 
-              {% for schedule in schedules %}
+              {% for schedule in schedules reversed | limit: 5 %}
                 <tr>
                   <td>{{ schedule.date | date: "%Y/%-m/%-d %a" }}</td>
                   <td><a href="{{ schedule.href }}" target="_blank">{{ schedule.class_name }} <i class="fa fa-external-link"></i></a></td>
-                  <td><span class="green">{{ schedule.status }}</span></td>
+                  {% if schedule.done? %}
+                    <td><span class="red">終了</span></td>
+                  {% else %}
+                    <td><span class="green">募集中</span></td>
+                  {% endif %}
                 </tr>
               {% endfor %}
 

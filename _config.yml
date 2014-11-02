@@ -1,8 +1,9 @@
 title: toiee cafe
 description: 学び方を学ぶための、小さな学び舎です
 author: hokuken.inc
-url: "http://cafe.toiee.jp"
+url: "http://toiee.jp/cafe"
+baseurl: "/cafe"
 
 markdown: kramdown
 
-exclude: ['Gemfile', 'Gemfile.lock', 'vendor', 'config.ru', .env]
+exclude: ['Gemfile', 'Gemfile.lock']
