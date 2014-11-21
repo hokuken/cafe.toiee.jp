@@ -4,16 +4,16 @@
   done?: true
 
 - date: 2014-09-15
-  class_name: Life Language Bootcamp Orientation #1
+  class_name: Life Language Bootcamp Orientation
   href: http://llbootcamp.com/
   done?: true
 
 - date: 2014-11-10
   class_name: 「100聞は1動画にしかず」講座 (3時間)
   href: https://www.facebook.com/events/1531663463744321/
-  done?: false
+  done?: true
 
 - date: 2014-11-11
   class_name: 「100聞は1動画にしかず」講座 (3時間)
   href: https://www.facebook.com/events/1518386835096226/
-  done?: false
+  done?: true
