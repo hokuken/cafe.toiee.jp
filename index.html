@@ -31,6 +31,8 @@ layout: default
                   <td><a href="{{ schedule.href }}" target="_blank">{{ schedule.class_name }} <i class="fa fa-external-link"></i></a></td>
                   {% if schedule.done? %}
                     <td><span class="red">終了</span></td>
+                  {% elsif schedule.full? %}
+                    <td><span class="mid-gray">満席</span></td>
                   {% else %}
                     <td><span class="green">募集中</span></td>
                   {% endif %}

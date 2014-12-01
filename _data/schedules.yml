@@ -2,18 +2,28 @@
   class_name: 「100聞は1動画にしかず」講座
   href: http://peatix.com/event/47408
   done?: true
+  full?: true
 
 - date: 2014-09-15
   class_name: Life Language Bootcamp Orientation
   href: http://llbootcamp.com/
   done?: true
+  full?: true
 
 - date: 2014-11-10
   class_name: 「100聞は1動画にしかず」講座 (3時間)
   href: https://www.facebook.com/events/1531663463744321/
   done?: true
+  full?: true
 
 - date: 2014-11-11
   class_name: 「100聞は1動画にしかず」講座 (3時間)
   href: https://www.facebook.com/events/1518386835096226/
   done?: true
+  full?: true
+
+- date: 2014-12-03
+  class_name: イノベーションの起こし方（デザイン思考 x 加速学習）
+  href: http://peatix.com/event/63599
+  done?: false
+  full?: true
