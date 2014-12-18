@@ -25,5 +25,23 @@
 - date: 2014-12-03
   class_name: イノベーションの起こし方（デザイン思考 x 加速学習）
   href: http://peatix.com/event/63599
-  done?: false
+  done?: true
   full?: true
+
+- date: 2014-12-14
+  class_name: 「100聞は1動画にしかず」講座 (3時間)
+  href: http://peatix.com/event/64529
+  done?: true
+  full?: true
+
+- date: 2014-12-17
+  class_name: 「100聞は1動画にしかず」講座 (3時間)
+  href: http://peatix.com/event/64929
+  done?: true
+  full?: true
+
+- date: 2014-12-19
+  class_name: 「100聞は1動画にしかず」講座 (3時間)
+  href: http://peatix.com/event/64930
+  done?: false
+  full?: false
